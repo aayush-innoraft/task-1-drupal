@@ -1,0 +1,21 @@
+uuid: 6b1254f7-0b2d-4dc6-9708-b9fd39e9ec75
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.emp_1
+    - field.storage.block_content.field_name
+id: block_content.emp_1.field_name
+field_name: field_name
+entity_type: block_content
+bundle: emp_1
+label: 'name:'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'JOHN doe'
+default_value_callback: ''
+settings: {  }
+field_type: string

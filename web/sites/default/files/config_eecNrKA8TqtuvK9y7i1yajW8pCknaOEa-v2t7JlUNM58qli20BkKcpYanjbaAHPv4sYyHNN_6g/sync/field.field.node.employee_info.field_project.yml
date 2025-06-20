@@ -1,0 +1,24 @@
+uuid: d59e7ad4-acef-483b-b7ad-628f8f59303a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project
+    - filter.format.full_html
+    - node.type.employee_info
+  module:
+    - text
+id: node.employee_info.field_project
+field_name: field_project
+entity_type: node
+bundle: employee_info
+label: PROJECT
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

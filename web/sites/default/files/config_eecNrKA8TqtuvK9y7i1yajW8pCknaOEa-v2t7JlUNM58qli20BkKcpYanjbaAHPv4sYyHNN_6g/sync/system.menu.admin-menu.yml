@@ -1,0 +1,8 @@
+uuid: 9d23a777-30f5-44b1-b0c5-0ed8fc745ba2
+langcode: en
+status: true
+dependencies: {  }
+id: admin-menu
+label: admin-menu
+description: 'menu only admin and HR'
+locked: false

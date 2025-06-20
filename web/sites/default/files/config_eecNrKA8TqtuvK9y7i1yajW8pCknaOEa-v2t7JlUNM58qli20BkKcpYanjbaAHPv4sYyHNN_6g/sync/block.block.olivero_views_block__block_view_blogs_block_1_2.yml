@@ -1,0 +1,25 @@
+uuid: e5690663-ad21-437a-866a-e757c4e45897
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.block_view_blogs
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__block_view_blogs_block_1_2
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:block_view_blogs-block_1'
+settings:
+  id: 'views_block:block_view_blogs-block_1'
+  label: related-blogs
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: related-blogs
+  items_per_page: none
+visibility: {  }

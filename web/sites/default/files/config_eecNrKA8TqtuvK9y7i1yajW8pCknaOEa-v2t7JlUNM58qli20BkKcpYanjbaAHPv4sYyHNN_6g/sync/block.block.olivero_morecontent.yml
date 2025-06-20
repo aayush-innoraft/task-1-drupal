@@ -1,0 +1,29 @@
+uuid: bcb26128-c536-4a7f-87a3-d0b2d61c0f5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.more-content
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_morecontent
+theme: olivero
+region: content
+weight: -10
+provider: null
+plugin: 'system_menu_block:more-content'
+settings:
+  id: 'system_menu_block:more-content'
+  label: more-content
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

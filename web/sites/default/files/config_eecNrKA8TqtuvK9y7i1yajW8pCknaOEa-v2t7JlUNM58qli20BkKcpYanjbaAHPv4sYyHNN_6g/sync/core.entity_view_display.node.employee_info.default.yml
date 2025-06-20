@@ -1,0 +1,65 @@
+uuid: 2cc0b18c-34eb-4ace-a19f-607164cdcc2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.employee_info.field_character_sticks_and_skill
+    - field.field.node.employee_info.field_employee_image
+    - field.field.node.employee_info.field_name
+    - field.field.node.employee_info.field_project
+    - field.field.node.employee_info.field_skills
+    - node.type.employee_info
+  module:
+    - image
+    - text
+    - user
+id: node.employee_info.default
+targetEntityType: node
+bundle: employee_info
+mode: default
+content:
+  field_character_sticks_and_skill:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_employee_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_project:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_skills:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

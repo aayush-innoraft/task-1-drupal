@@ -1,0 +1,8 @@
+uuid: 047dc9e2-8652-49e7-8c70-858b2ecf22d3
+langcode: en
+status: true
+dependencies: {  }
+id: bloger-menu
+label: bloger-menu
+description: ''
+locked: false

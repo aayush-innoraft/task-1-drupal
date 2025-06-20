@@ -1,0 +1,29 @@
+uuid: 18e2699b-cbcf-43a8-85f3-9fbfcc00f5a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.project-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_projectmenu
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'system_menu_block:project-menu'
+settings:
+  id: 'system_menu_block:project-menu'
+  label: project-menu
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/project-1\r\n/project-2\r\n/project-3\r\n/project-4\r\n/project-5"
