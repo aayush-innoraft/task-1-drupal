@@ -1,0 +1,22 @@
+uuid: 3aa4ed42-6e56-42e9-a8c2-e25f48fc0a00
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.admin_block
+    - field.field.block_content.admin_block.body
+  module:
+    - text
+id: block_content.admin_block.default
+targetEntityType: block_content
+bundle: admin_block
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

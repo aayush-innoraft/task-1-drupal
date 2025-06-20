@@ -1,0 +1,59 @@
+uuid: 7276084a-97aa-4463-9b87-147373773c31
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.emp_1
+    - field.field.block_content.emp_1.field_emp_1_image
+    - field.field.block_content.emp_1.field_name
+    - field.field.block_content.emp_1.field_project
+    - field.field.block_content.emp_1.field_skilss
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.emp_1.default
+targetEntityType: block_content
+bundle: emp_1
+mode: default
+content:
+  field_emp_1_image:
+    type: image_image
+    weight: 26
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_name:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_project:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_skilss:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

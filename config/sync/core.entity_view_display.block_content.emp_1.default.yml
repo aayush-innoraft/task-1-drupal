@@ -1,0 +1,53 @@
+uuid: 5f19f2e1-d86e-4bb0-95f9-201c261d8973
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.emp_1
+    - field.field.block_content.emp_1.field_emp_1_image
+    - field.field.block_content.emp_1.field_name
+    - field.field.block_content.emp_1.field_project
+    - field.field.block_content.emp_1.field_skilss
+  module:
+    - image
+id: block_content.emp_1.default
+targetEntityType: block_content
+bundle: emp_1
+mode: default
+content:
+  field_emp_1_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_project:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_skilss:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

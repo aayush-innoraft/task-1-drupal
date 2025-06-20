@@ -1,0 +1,8 @@
+uuid: 2cfa2ec3-a753-49ab-a16f-5a09c3c62da6
+langcode: en
+status: true
+dependencies: {  }
+id: project-menu
+label: project-menu
+description: ''
+locked: false

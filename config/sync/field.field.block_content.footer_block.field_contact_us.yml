@@ -1,0 +1,21 @@
+uuid: 1dc13315-249c-4803-b7be-e8c506c1effa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_block
+    - field.storage.block_content.field_contact_us
+id: block_content.footer_block.field_contact_us
+field_name: field_contact_us
+entity_type: block_content
+bundle: footer_block
+label: Contact-us
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Contact-us
+default_value_callback: ''
+settings: {  }
+field_type: string

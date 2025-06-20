@@ -1,0 +1,108 @@
+uuid: 3d5fa599-b2e3-4270-9b5a-bb76b29db458
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.admin_block
+    - block_content.type.basic
+    - block_content.type.customer
+    - block_content.type.emp_1
+    - block_content.type.footer_block
+    - node.type.article
+    - node.type.blogs
+    - node.type.employee_info
+    - node.type.page
+    - node.type.project
+    - taxonomy.vocabulary.blogs
+    - taxonomy.vocabulary.projects
+    - taxonomy.vocabulary.tags
+  module:
+    - announcements_feed
+    - block
+    - block_content
+    - comment
+    - contact
+    - field_ui
+    - node
+    - search
+    - taxonomy
+    - toolbar
+id: hr
+label: HR
+weight: 4
+is_admin: false
+permissions:
+  - 'access announcements'
+  - 'access block library'
+  - 'access comments'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'administer block content'
+  - 'administer block types'
+  - 'administer blocks'
+  - 'administer comment display'
+  - 'administer comment types'
+  - 'administer comments'
+  - 'administer contact_message display'
+  - 'administer display modes'
+  - 'administer search'
+  - 'administer taxonomy'
+  - 'administer taxonomy_term form display'
+  - 'create admin_block block content'
+  - 'create article content'
+  - 'create basic block content'
+  - 'create blogs content'
+  - 'create customer block content'
+  - 'create emp_1 block content'
+  - 'create employee_info content'
+  - 'create footer_block block content'
+  - 'create page content'
+  - 'create project content'
+  - 'create terms in tags'
+  - 'delete any admin_block block content'
+  - 'delete any admin_block block content revisions'
+  - 'delete any article content'
+  - 'delete any basic block content'
+  - 'delete any basic block content revisions'
+  - 'delete any customer block content'
+  - 'delete any customer block content revisions'
+  - 'delete any emp_1 block content'
+  - 'delete any emp_1 block content revisions'
+  - 'delete any footer_block block content'
+  - 'delete any footer_block block content revisions'
+  - 'delete any page content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'delete term revisions in tags'
+  - 'delete terms in tags'
+  - 'edit any admin_block block content'
+  - 'edit any article content'
+  - 'edit any basic block content'
+  - 'edit any blogs content'
+  - 'edit any customer block content'
+  - 'edit any emp_1 block content'
+  - 'edit any employee_info content'
+  - 'edit any footer_block block content'
+  - 'edit any page content'
+  - 'edit any project content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in blogs'
+  - 'edit terms in projects'
+  - 'edit terms in tags'
+  - 'post comments'
+  - 'revert all taxonomy revisions'
+  - 'revert any basic block content revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'revert term revisions in tags'
+  - 'search content'
+  - 'use advanced search'
+  - 'view all taxonomy revisions'
+  - 'view any basic block content history'
+  - 'view term revisions in tags'
+  - 'view vocabulary labels'

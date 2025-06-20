@@ -1,0 +1,19 @@
+uuid: 5b6ec777-4ccc-44b2-b6ed-17b5018a8de0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_character_sticks_and_skill
+    - node.type.employee_info
+id: node.employee_info.field_character_sticks_and_skill
+field_name: field_character_sticks_and_skill
+entity_type: node
+bundle: employee_info
+label: 'character sticks and skills'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

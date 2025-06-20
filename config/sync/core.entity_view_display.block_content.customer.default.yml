@@ -1,0 +1,51 @@
+uuid: 598984a5-72bc-4145-822f-b38964384572
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customer
+    - field.field.block_content.customer.body
+    - field.field.block_content.customer.field_customer_name
+    - field.field.block_content.customer.field_date
+    - field.field.block_content.customer.field_project_name
+  module:
+    - datetime
+    - text
+id: block_content.customer.default
+targetEntityType: block_content
+bundle: customer
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_customer_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_project_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

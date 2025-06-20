@@ -1,0 +1,19 @@
+uuid: 61af7597-6a5b-4751-8905-2efc57d37841
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customer
+    - field.storage.block_content.field_customer_name
+id: block_content.customer.field_customer_name
+field_name: field_customer_name
+entity_type: block_content
+bundle: customer
+label: Customer-Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

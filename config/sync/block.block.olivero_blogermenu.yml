@@ -1,0 +1,33 @@
+uuid: 4d4b3110-2734-430b-89b2-f6bce54ea985
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.bloger-menu
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_blogermenu
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:bloger-menu'
+settings:
+  id: 'system_menu_block:bloger-menu'
+  label: bloger-menu
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      blogger: blogger

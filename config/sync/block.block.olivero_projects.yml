@@ -1,0 +1,30 @@
+uuid: e7ad05aa-433b-4bad-a813-0a39ed7bba02
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:customer:a42262c5-0a53-41dc-a5e1-ab06f38efe46'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_projects
+theme: olivero
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:a42262c5-0a53-41dc-a5e1-ab06f38efe46'
+settings:
+  id: 'block_content:a42262c5-0a53-41dc-a5e1-ab06f38efe46'
+  label: projects
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /page

@@ -1,0 +1,21 @@
+uuid: 6d062f6a-67c7-4fa5-83d5-01c3a3c98198
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_block
+    - field.storage.block_content.field_privacy_policy
+id: block_content.footer_block.field_privacy_policy
+field_name: field_privacy_policy
+entity_type: block_content
+bundle: footer_block
+label: Privacy-policy
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Privacy-Policy
+default_value_callback: ''
+settings: {  }
+field_type: string

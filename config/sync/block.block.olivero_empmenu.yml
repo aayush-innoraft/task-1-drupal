@@ -1,0 +1,29 @@
+uuid: b3786459-ffcb-4568-8cf1-41d5dc241961
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.emp-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_empmenu
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:emp-menu'
+settings:
+  id: 'system_menu_block:emp-menu'
+  label: emp-menu
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/emp-1\r\n/emp-2\r\n/emp-3\r\n/emp-4\r\n/emp-5"

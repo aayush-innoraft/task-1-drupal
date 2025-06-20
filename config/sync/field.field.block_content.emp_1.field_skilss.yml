@@ -1,0 +1,21 @@
+uuid: 1e956f9b-36da-4485-8119-4e482c6a2354
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.emp_1
+    - field.storage.block_content.field_skilss
+id: block_content.emp_1.field_skilss
+field_name: field_skilss
+entity_type: block_content
+bundle: emp_1
+label: skilss
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'drupal ,css ,javascript'
+default_value_callback: ''
+settings: {  }
+field_type: string

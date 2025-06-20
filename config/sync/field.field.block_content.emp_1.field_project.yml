@@ -1,0 +1,21 @@
+uuid: 8fa3e6ca-c29f-4581-b1ed-cdab6f4d8d8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.emp_1
+    - field.storage.block_content.field_project
+id: block_content.emp_1.field_project
+field_name: field_project
+entity_type: block_content
+bundle: emp_1
+label: project
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'drupal training'
+default_value_callback: ''
+settings: {  }
+field_type: string

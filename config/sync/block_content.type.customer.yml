@@ -1,0 +1,8 @@
+uuid: a72445dc-bb8e-41d8-a30e-df5c98e98142
+langcode: en
+status: true
+dependencies: {  }
+id: customer
+label: customer
+revision: false
+description: 'projects description'

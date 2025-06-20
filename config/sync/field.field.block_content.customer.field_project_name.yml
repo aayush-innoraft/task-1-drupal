@@ -1,0 +1,19 @@
+uuid: 794691f9-abea-41f7-85b9-d7bf5450e8f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customer
+    - field.storage.block_content.field_project_name
+id: block_content.customer.field_project_name
+field_name: field_project_name
+entity_type: block_content
+bundle: customer
+label: Project-Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

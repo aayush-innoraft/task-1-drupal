@@ -1,0 +1,85 @@
+uuid: 9eb06dd1-3d36-477b-a6f5-27ef241f34c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.admin_block
+    - block_content.type.basic
+    - block_content.type.customer
+    - block_content.type.emp_1
+    - block_content.type.footer_block
+    - node.type.article
+    - node.type.blogs
+    - node.type.employee_info
+    - node.type.page
+    - node.type.project
+    - taxonomy.vocabulary.tags
+  module:
+    - block
+    - block_content
+    - comment
+    - node
+    - search
+    - taxonomy
+id: blogger
+label: BLOGGER
+weight: 5
+is_admin: false
+permissions:
+  - 'access block library'
+  - 'access comments'
+  - 'administer blocks'
+  - 'administer comments'
+  - 'create admin_block block content'
+  - 'create article content'
+  - 'create basic block content'
+  - 'create blogs content'
+  - 'create customer block content'
+  - 'create emp_1 block content'
+  - 'create employee_info content'
+  - 'create footer_block block content'
+  - 'create page content'
+  - 'create project content'
+  - 'create terms in tags'
+  - 'delete any admin_block block content'
+  - 'delete any admin_block block content revisions'
+  - 'delete any article content'
+  - 'delete any basic block content'
+  - 'delete any basic block content revisions'
+  - 'delete any customer block content'
+  - 'delete any customer block content revisions'
+  - 'delete any emp_1 block content'
+  - 'delete any emp_1 block content revisions'
+  - 'delete any footer_block block content'
+  - 'delete any footer_block block content revisions'
+  - 'delete any page content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'delete term revisions in tags'
+  - 'delete terms in tags'
+  - 'edit any admin_block block content'
+  - 'edit any article content'
+  - 'edit any basic block content'
+  - 'edit any customer block content'
+  - 'edit any emp_1 block content'
+  - 'edit any footer_block block content'
+  - 'edit any page content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'post comments'
+  - 'revert any admin_block block content revisions'
+  - 'revert any basic block content revisions'
+  - 'revert any customer block content revisions'
+  - 'revert any emp_1 block content revisions'
+  - 'revert any footer_block block content revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'search content'
+  - 'view all taxonomy revisions'
+  - 'view any basic block content history'
+  - 'view any customer block content history'
+  - 'view any emp_1 block content history'

@@ -1,0 +1,24 @@
+uuid: 5c33f866-9735-4e72-af6e-28af0cc1d9c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_skills
+    - filter.format.full_html
+    - node.type.employee_info
+  module:
+    - text
+id: node.employee_info.field_skills
+field_name: field_skills
+entity_type: node
+bundle: employee_info
+label: 'SKILLS:'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

@@ -1,0 +1,14 @@
+uuid: 32096817-edf6-4776-8b8e-5466c51e796c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.blogger
+  module:
+    - user
+id: user_remove_role_action.blogger
+label: 'Remove the BLOGGER role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: blogger
